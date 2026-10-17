@@ -8,6 +8,10 @@ control and a vent. Every common customization type is used exactly once.
 - The design is built by `demo/figma/cabin-controls-build.js`, a Figma Plugin API script.
 - The full reference, with every annotation and parameter explained, is `demo/docs/designcompose-reference.md`.
 
+![cabin-9-a.png](demo/screenshots/cabin-9-a.png)
+
+![cabin-10-b.png](demo/screenshots/cabin-10-b.png)
+
 ## Read it in this order
 
 1. `app/src/main/java/com/example/cabincontrols/design/CabinDesign.kt`: the contract between Figma and
@@ -60,3 +64,4 @@ Launch with `adb shell am start -n com.example.cabincontrols/.MainActivity --ez 
 
 `./gradlew.bat assembleDebug -PliveUpdate=true` turns on Figma Live Update, which re-fetches the Figma
 file while it is edited. It needs a token and the network, and is never enabled in release builds.
+
