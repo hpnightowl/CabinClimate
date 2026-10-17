@@ -1,0 +1,23 @@
+*.iml
+.idea/
+
+# Release signing. keystore.properties holds the keystore passwords in plaintext — it must
+# never be committed. Only keystore.properties.example is tracked.
+*.jks
+*.keystore
+*.p12
+*.pepk
+keystore.properties
+
+*.apk
+*.aab
+.gradle
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.DS_Store
+app/release/
+app/build
+.kotlin/
